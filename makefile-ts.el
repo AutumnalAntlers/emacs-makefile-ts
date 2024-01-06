@@ -77,8 +77,7 @@
   (setq-local treesit-font-lock-feature-list
     '((comments)
       (targets)
-      (variables)
-      (directives)))
+      (variables directives)))
 
   ;; (setq-local treesit-simple-indent-rules makefile-ts-indent-rules)
 
