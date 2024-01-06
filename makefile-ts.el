@@ -29,6 +29,7 @@
 ;; automatically. You can do that either by prepending to the value of
 ;; `auto-mode-alist', or using `major-mode-remap-alist'.
 
+(require 'treesit)
 (require 'make-mode)
 
 ;;;###autoload
